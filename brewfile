@@ -1,0 +1,46 @@
+# specify a directory to install
+cask_args appdir: '/Applications'
+
+tap 'homebrew/bundle'
+
+# packages
+tap 'caskroom/homebrew-cask' || true
+brew 'git'
+brew 'node'
+
+# Apps
+cask '1password'
+cask 'appcleaner'
+cask 'atom'
+cask 'bartender'
+cask 'ccleaner'
+cask 'google-chrome'
+cask 'chrome-devtools'
+cask 'clipmenu'
+cask 'coconutbattery'
+cask 'dropbox'
+cask 'evernote'
+cask 'filezilla'
+cask 'firefox'
+cask 'grammarly'
+cask 'iterm2'
+cask 'libreoffice'
+cask 'mamp'
+cask 'mou'
+cask 'mysqlworkbench'
+cask 'opera'
+cask 'phpstorm'
+cask 'screenhero'
+cask 'sequel-pro'
+cask 'sketch'
+cask 'skype'
+cask 'slack'
+cask 'snagit'
+cask 'sourcetree'
+cask 'spotify'
+cask 'sublime-text3'
+cask 'virtualbox'
+cask 'xscope'
+
+# Fonts
+
